@@ -1,130 +1,130 @@
 * {
-        box-sizing: border-box;
-      }
-      body {
-        margin: 0;
-        padding: 15px;
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        color: #2c3e50;
-        background-color: #f4faf6; /* Latar belakang hijau pupus yang lembut */
-        line-height: 1.6;
-      }
-      .container {
-        max-width: 500px;
-        margin: 0 auto;
-      }
-      /* Banner Header */
-      .header-container {
-        background-color: #2cd451; /* Warna hijau utama */
-        padding: 25px 20px;
-        border-radius: 12px;
-        text-align: center;
-        margin-bottom: 20px;
-        box-shadow: 0 4px 6px rgba(0,0,0,0.05);
-      }
-      .logo {
-        display: block;
-        margin: 0 auto 12px auto;
-        width: 80px;
-        height: 80px;
-        border: 3px solid #ffffff;
-        border-radius: 12px;
-        object-fit: cover;
-      }
-      h1 {
-        margin: 0;
-        font-size: 22px;
-        color: #ffffff;
-      }
-      h2 {
-        text-align: center;
-        font-size: 16px;
-        color: #1e9e3b;
-        margin: 15px 0 5px 0;
-        font-weight: bold;
-      }
-      .location {
-        text-align: center;
-        margin-bottom: 20px;
-        font-size: 14px;
-      }
-      .location a {
-        color: #16a085;
-        text-decoration: none;
-        font-weight: bold;
-      }
-      /* Foto Toko */
-      .toko img {
-        display: block;
-        width: 100%;
-        max-width: 100%;
-        height: auto;
-        border-radius: 8px;
-        margin: 0 auto 20px auto;
-        box-shadow: 0 4px 8px rgba(0,0,0,0.05);
-      }
-      /* Isi Informasi Detail */
-      .isi {
-        background-color: #ffffff;
-        color: #333333;
-        border-radius: 12px;
-        padding: 20px;
-        box-shadow: 0 4px 10px rgba(0,0,0,0.04);
-        border-left: 5px solid #2cd451; /* Aksen garis hijau di sebelah kiri */
-      }
-      h4 {
-        margin: 18px 0 6px 0;
-        color: #1e9e3b;
-        font-size: 15px;
-        border-bottom: 1px solid #eeeeee;
-        padding-bottom: 4px;
-      }
-      h4:first-of-type {
-        margin-top: 0;
-      }
-      ul {
-        margin: 0;
-        padding-left: 20px;
-      }
-      li {
-        margin-bottom: 6px;
-        font-size: 14px;
-      }
-      li a {
-        color: #2980b9;
-        text-decoration: none;
-        font-weight: bold;
-      }
-      /* Tombol Panggilan Aksi (CTA) */
-      .cta-section {
-        text-align: center;
-        margin-top: 25px;
-        padding: 20px;
-        background-color: #e8f9ec;
-        border-radius: 12px;
-        border: 1px solid #c3f2cf;
-      }
-      .cta-button {
-        display: inline-block;
-        background-color: #25d366; /* Warna Hijau WhatsApp */
-        color: white;
-        text-decoration: none;
-        padding: 12px 25px;
-        border-radius: 30px;
-        font-weight: bold;
-        font-size: 15px;
-        margin-top: 10px;
-        box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-        transition: background-color 0.2s;
-      }
-      .cta-button:hover {
-        background-color: #1ebd58;
-      }
-      /* Footer */
-      .footer {
-        text-align: center;
-        font-size: 12px;
-        color: #7f8c8d;
-        margin-top: 30px;
-        margin-bottom: 15px;
-      }
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 15px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #2c3e50;
+  background-color: #f4faf6; /* Latar belakang hijau pupus yang lembut */
+  line-height: 1.6;
+}
+.container {
+  max-width: 500px;
+  margin: 0 auto;
+}
+/* Banner Header */
+.header-container {
+  background-color: #2cd451; /* Warna hijau utama */
+  padding: 25px 20px;
+  border-radius: 12px;
+  text-align: center;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+}
+.logo {
+  display: block;
+  margin: 0 auto 12px auto;
+  width: 80px;
+  height: 80px;
+  border: 3px solid #ffffff;
+  border-radius: 12px;
+  object-fit: cover;
+}
+h1 {
+  margin: 0;
+  font-size: 22px;
+  color: #ffffff;
+}
+h2 {
+  text-align: center;
+  font-size: 16px;
+  color: #1e9e3b;
+  margin: 15px 0 5px 0;
+  font-weight: bold;
+}
+.location {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+.location a {
+  color: #16a085;
+  text-decoration: none;
+  font-weight: bold;
+}
+/* Foto Toko */
+.toko img {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin: 0 auto 20px auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+}
+/* Isi Informasi Detail */
+.isi {
+  background-color: #ffffff;
+  color: #333333;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.04);
+  border-left: 5px solid #2cd451; /* Aksen garis hijau di sebelah kiri */
+}
+h4 {
+  margin: 18px 0 6px 0;
+  color: #1e9e3b;
+  font-size: 15px;
+  border-bottom: 1px solid #eeeeee;
+  padding-bottom: 4px;
+}
+h4:first-of-type {
+  margin-top: 0;
+}
+ul {
+  margin: 0;
+  padding-left: 20px;
+}
+li {
+  margin-bottom: 6px;
+  font-size: 14px;
+}
+li a {
+  color: #2980b9;
+  text-decoration: none;
+  font-weight: bold;
+}
+/* Tombol Panggilan Aksi (CTA) */
+.cta-section {
+  text-align: center;
+  margin-top: 25px;
+  padding: 20px;
+  background-color: #e8f9ec;
+  border-radius: 12px;
+  border: 1px solid #c3f2cf;
+}
+.cta-button {
+  display: inline-block;
+  background-color: #25d366; /* Warna Hijau WhatsApp */
+  color: white;
+  text-decoration: none;
+  padding: 12px 25px;
+  border-radius: 30px;
+  font-weight: bold;
+  font-size: 15px;
+  margin-top: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.2s;
+}
+.cta-button:hover {
+  background-color: #1ebd58;
+}
+/* Footer */
+.footer {
+  text-align: center;
+  font-size: 12px;
+  color: #7f8c8d;
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
