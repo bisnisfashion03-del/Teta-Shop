@@ -1,17 +1,43 @@
 body {
   margin: 10px;
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background-color: #a3c3ee;
+  background-color: #2cd451;
+}
+
+.logo img {
+  display: flex;
+  justify-content: center;
+  background-color: aqua;
+  border: 2px solid;
+  border-radius: 10px;
+  width: 90px;
+}
+
+.toko {
+  text-align: center;
+}
+
+img {
+  width: 400px;
+  text-align: center;
 }
 
 h1 {
-  text-align: center;
+  color: black;
 }
 
 h2 {
   text-align: center;
 }
 
+.isi {
+  background-color: black;
+  color: white;
+  display: table;
+  border-radius: 15px;
+  padding: 10px;
+}
+
 .countener {
-   text-align: center;
+  text-align: center;
 }
